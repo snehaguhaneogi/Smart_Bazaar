@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smart Bazzar TDD Suite" parallel="methods" data-provider-thread-count="3">
+    <test name="Search Tests" verbose="2" preserve-order="true">
+        <classes>
+            <class name="tests.GetProductPriceTest"/>
+        </classes>
+    </test>
+</suite>
